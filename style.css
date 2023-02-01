@@ -1,0 +1,67 @@
+.contenedor{
+    width: 450px;
+    height: 600px;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 15px 20px 10px black;
+    background-color: rgb(227, 235, 233);
+}
+
+.numero{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(192, 192, 0);
+    color: white;
+    border-color: rgb(192, 192, 0);
+    box-shadow:rgb(101, 101, 8) 8px 5px 5px;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.signos{
+    width: 70px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgb(217, 130, 24);
+    border-color: rgb(193, 117, 23);
+    box-shadow:rgba(115, 72, 19, 0.747) 8px 5px 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+.pantalla{
+    width: 430px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(193, 117, 23);
+    font-size: 20px;
+}
